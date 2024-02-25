@@ -1,0 +1,42 @@
+.form{
+    margin: auto;
+    margin-top: 5px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    background-color: #0D1B2A;
+    border-radius: 20px;
+}
+
+.form img{
+    position: relative;
+    top: 4px;
+    right: 170px;
+    cursor: pointer;
+}
+
+.form input{
+    width: 47%;
+    margin: 5px;
+    padding: 3px 40px 3px 10px;
+    border-radius: 10px;
+
+}
+.form i{
+    position: relative;
+    top: 7px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: -1px ;
+}
+
+#horaAtual{
+    width: 170px;
+    color: #E0E1DD;
+    position: relative;
+    bottom: 28px;
+    left: 925px;
+    transition: 0.3s;
+}

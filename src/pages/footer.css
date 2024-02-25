@@ -1,0 +1,18 @@
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 5% 0 10%;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    transition: 0.3s;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #E0E1DD;
+    margin: 10px;
+}
+
+#footer a:visited{
+    color: #E0E1DD;
+}

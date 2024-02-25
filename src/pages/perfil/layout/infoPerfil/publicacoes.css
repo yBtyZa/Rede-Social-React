@@ -1,0 +1,18 @@
+.publicacoes{
+    margin: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.publicacoes img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 1px #778DA9 solid;
+}
+.publicacoes img:hover{
+    transform: scale(1.07);
+    transition: 0.5s;
+    cursor: pointer;
+}

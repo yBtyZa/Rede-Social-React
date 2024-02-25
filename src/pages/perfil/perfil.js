@@ -1,10 +1,11 @@
-import { Menu } from "./layout/menu"
-import "./perfil.css"
+import { Menu } from "../menu"
+import { InfoPerfil } from "./layout/infoPerfil"
 
 export const Perfil = () => {
     return(
         <div>
-            <Menu/>
+            <Menu />
+            <InfoPerfil />
         </div>
     )
 }

@@ -1,0 +1,17 @@
+.sectionPerfilDois{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sectionPerfilDois p{
+    margin-top: 30px;
+}
+
+.sectionPerfilDois a{
+    text-decoration: none;
+    color: #424242;;
+}
+
+.sectionPerfilDois a:hover{
+    text-decoration: underline;
+}

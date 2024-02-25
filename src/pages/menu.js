@@ -1,6 +1,25 @@
+import React, { useEffect } from 'react'
+import {expandirMenu, contrairMenu} from './expancaoMenu';
+
 import "./menu.css"
 
 export const Menu = () => {
+
+    // Use o useEffect para chamar as funções no momento apropriado
+    useEffect(() => {
+        const header = document.getElementById('header');
+
+        // Adicione os ouvintes de evento dentro de useEffect
+        header.addEventListener('mouseover', expandirMenu);
+        header.addEventListener('mouseleave', contrairMenu);
+
+        // Remova os ouvintes de evento quando o componente for desmontado
+        return () => {
+            header.removeEventListener('mouseover', expandirMenu);
+            header.removeEventListener('mouseleave', contrairMenu);
+        };
+    }, []);
+
     return (
         <header className="header" id="header">
             <nav>
