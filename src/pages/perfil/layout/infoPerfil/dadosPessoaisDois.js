@@ -1,5 +1,6 @@
 
-import './dadosPessoaisDois.css'
+import './dadosPessoaisDoisCSS/dadosPessoaisDois_1366px.css'
+import './dadosPessoaisDoisCSS/dadosPessoaisDois_1920px.css'
 import { Publicacoes } from './publicacoes.js'
 
 

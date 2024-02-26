@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react'
 import {expandirMenu, contrairMenu} from './expancaoMenu';
 
-import "./menu.css"
+import "./menuCSS/menu_1366px.css"
+import "./menuCSS/menu_1920px.css"
+
 
 export const Menu = () => {
 

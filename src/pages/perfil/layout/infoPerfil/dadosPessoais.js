@@ -1,4 +1,5 @@
-import "./dadosPessoais.css"
+import "./dadosPessoaisCSS/dadosPessoais_1366px.css"
+import "./dadosPessoaisCSS/dadosPessoais_1920px.css"
 import ImgPerfil from '../../../../assets/img/img_perfil.jpg'
 
 export const DadosPessoais = () => {

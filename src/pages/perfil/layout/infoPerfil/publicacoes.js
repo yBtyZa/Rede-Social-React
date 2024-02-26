@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-
-import './publicacoes.css'
+import './publicacoesCSS/publicacoes_1366px.css'
+import './publicacoesCSS/publicacoes_1920px.css'
 
 import Img_1 from '../../../../assets/img/publicacoes/img_1.png'
 import Img_2 from '../../../../assets/img/publicacoes/img_2.jpg'

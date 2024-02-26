@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import {contrairMenu} from './expancaoMenu';
 
-import './footer.css'
+import './footerCSS/footer_1366px.css'
+import './footerCSS/footer_1920px.css'
 
 export const Footer = () => {
 

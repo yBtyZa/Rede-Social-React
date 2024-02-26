@@ -1,0 +1,21 @@
+@media (max-width: 1920px) and (min-width: 1367px){
+    #footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 1% 5% 1% 10%;
+        background-color: #0D1B2A;
+        color: #E0E1DD;
+        transition: 0.3s;
+        font-size: 20px;
+    }
+    
+    #footer a{
+        text-decoration: none;
+        color: #E0E1DD;
+        margin: 10px;
+    }
+    
+    #footer a:visited{
+        color: #E0E1DD;
+    }
+}
