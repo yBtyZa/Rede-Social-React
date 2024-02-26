@@ -1,9 +1,10 @@
+@media (max-width: 1366px){
 .form{
     margin: auto;
     margin-top: 5px;
     padding: 3px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 900px;
     background-color: #0D1B2A;
     border-radius: 20px;
@@ -12,13 +13,13 @@
 .form img{
     position: relative;
     top: 4px;
-    right: 170px;
+    margin: 0 0 0 10px ;
     cursor: pointer;
 }
 
 .form input{
     width: 47%;
-    margin: 5px;
+    margin: 5px 5px 5px 130px;
     padding: 3px 40px 3px 10px;
     border-radius: 10px;
 
@@ -35,8 +36,8 @@
 #horaAtual{
     width: 170px;
     color: #E0E1DD;
-    position: relative;
-    bottom: 28px;
-    left: 925px;
     transition: 0.3s;
+    padding: 10px;
+    margin-left: 50px;
+}
 }

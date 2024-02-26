@@ -1,0 +1,45 @@
+@media (max-width: 1920px) and (min-width: 1367px){
+    .form{
+        margin: auto;
+        margin-top: 10px;
+        padding: 7px;
+        display: flex;
+        justify-content: flex-start;
+        width: 1100px;
+        background-color: #0D1B2A;
+        border-radius: 25px;
+    }
+    
+    .form img{
+        position: relative;
+        top: 4px;
+        left: 10px;
+        cursor: pointer;
+    }
+    
+    .form input{
+        width: 50%;
+        margin: 1px 1px 1px 200px;
+        padding: 5px 40px 5px 10px;
+        border-radius: 15px;
+        font-size: 20px;
+    
+    }
+    .form i{
+        position: relative;
+        top: 7px;
+        right: 40px;
+        cursor: pointer;
+        font-size: 25px;
+        margin-bottom: -1px ;
+    }
+    
+    #horaAtual{
+        width: 170px;
+        color: #E0E1DD;
+        transition: 0.3s;
+        padding: 10px;
+        margin-left: 50px;
+        font-size: 17px;
+    }
+}
