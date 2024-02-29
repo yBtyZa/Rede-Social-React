@@ -1,20 +1,111 @@
-@media (max-width: 1366px){
-.publicacoes{
-    margin: 20px 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-.publicacoes img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 1px #778DA9 solid;
-}
-.publicacoes img:hover{
-    transform: scale(1.07);
-    transition: 0.5s;
-    cursor: pointer;
-}
+/* Estilos para telas com largura máxima de 1366px */
+@media (max-width: 1366px) {
+    .publicacoes {
+        margin: 20px 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .publicacoes img {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        border: 1px #778DA9 solid;
+    }
+
+    .publicacoes img:hover {
+        transform: scale(1.07);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .modal {
+        margin: 30px 0px 50px 180px;
+        display: flex;
+        background-color: #0D1B2A;
+        width: 73vw;
+    }
+
+    .conteudoModal {
+        display: flex;
+        width: 70vw;
+        font-size: 14px;
+        justify-content: space-between;
+        color: #E0E1DD;
+    }
+
+    .conteudoModal img {
+        width: 500px;
+        height: 500px;
+        margin: 15px;
+        border: solid 3px #E0E1DD;
+        border-radius: 20px;
+    }
+
+    .encapsulamento {
+        margin-top: 20px;
+        height: 80vh;
+    }
+
+    .encapsulamento button {
+        position: absolute;
+        bottom: 540px;
+        left: 1130px;
+        color: #E0E1DD;
+        background: none;
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .descricaoSkills {
+        margin-top: 10px;
+        width: 30vw;
+        max-height: 200px;
+        overflow-y: auto;
+    }
+
+
+    .descricaoSkills p {
+        margin-top: 5px;
+        padding-right: 10px;
+    }
+
+    .modalComents {
+        display: flex;
+        position: absolute;
+        top: 525px;
+    }
+
+    .modalComents input {
+        width: 240px;
+        padding: 5px 35px 5px 10px;
+        border-radius: 15px;
+    }
+
+    .bxs-send {
+        font-size: 23px;
+        position: relative;
+        right: 30px;
+        cursor: pointer;
+        color: #0D1B2A;
+    }
+
+    .bx-i i {
+        font-size: 23px;
+        position: relative;
+        left: 5px;
+        margin: 0 5px 0 5px;
+        cursor: pointer;
+
+    }
+    .comentarios{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px;
+        border-top: 1px solid white;
+    }
 }

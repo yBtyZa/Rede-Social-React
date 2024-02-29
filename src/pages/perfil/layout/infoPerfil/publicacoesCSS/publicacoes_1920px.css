@@ -17,4 +17,97 @@
         transition: 0.5s;
         cursor: pointer;
     }
+
+    .modal {
+        margin: 60px 0px 50px 260px;
+        display: flex;
+        background-color: #0D1B2A;
+        width: 73vw;
+        font-size: 20px;
+    }
+
+    .conteudoModal {
+        display: flex;
+        width:70vw;
+        justify-content: space-between;
+        color: #E0E1DD;
+    }
+
+    .conteudoModal img {
+        width: 650px;
+        height: 650px;
+        margin: 15px;
+        border: solid 3px #E0E1DD;
+        border-radius: 30px;
+    }
+
+    .encapsulamento{
+    margin-top: 30px;
+    height: 80vh;
+    }
+
+    .encapsulamento button{
+        position: absolute;
+        bottom: 720px;
+        left: 1530px;
+        color: #E0E1DD;
+        background: none;
+        font-size: 60px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .descricaoSkills{
+        margin-top: 30px;
+        width: 30vw;
+        max-height: 250px;
+        overflow-y: auto;
+
+    }
+    .descricaoSkills p{
+        margin-top: 5px;
+    }
+    .descricaoSkills p {
+        margin-top: 5px;
+        padding-right: 10px;
+    }
+
+    .modalComents {
+        display: flex;
+        position: absolute;
+        top: 690px;
+    }
+
+    .modalComents input {
+        width: 350px;
+        padding: 9px 35px 9px 10px;
+        border-radius: 15px;
+    }
+
+    .bxs-send {
+        font-size: 27px;
+        position: relative;
+        right: 30px;
+        top: 3px;
+        cursor: pointer;
+        color: #0D1B2A;
+    }
+
+    .bx-i i {
+        font-size: 27px;
+        position: relative;
+        top: 3px;
+        left: 15px;
+        margin: 0 5px 0 5px;
+        cursor: pointer;
+
+    }
+    .comentarios{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 20px;
+        border-top: 1px solid white;
+    }
     }
